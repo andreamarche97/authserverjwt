@@ -1,0 +1,63 @@
+{
+  "groups": [
+    {
+      "name": "sicurezza",
+      "type": "com.davide.webapp.security.JwtConfig",
+      "sourceType": "com.davide.webapp.security.JwtConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "gestuser.password",
+      "type": "java.lang.String",
+      "description": "A description for 'gestuser.password'"
+    },
+    {
+      "name": "gestuser.srv-url",
+      "type": "java.lang.String",
+      "description": "A description for 'gestuser.srv-url'"
+    },
+    {
+      "name": "gestuser.userId",
+      "type": "java.lang.String",
+      "description": "A description for 'gestuser.userId'"
+    },
+    {
+      "name": "sicurezza.expiration",
+      "type": "java.lang.Integer",
+      "description": "A description for 'sicurezza.expiration'",
+      "sourceType": "com.davide.webapp.security.JwtConfig"
+    },
+    {
+      "name": "sicurezza.header",
+      "type": "java.lang.String",
+      "description": "A description for 'sicurezza.header'",
+      "sourceType": "com.davide.webapp.security.JwtConfig"
+    },
+    {
+      "name": "sicurezza.prefix",
+      "type": "java.lang.String",
+      "description": "A description for 'sicurezza.prefix'",
+      "sourceType": "com.davide.webapp.security.JwtConfig"
+    },
+    {
+      "name": "sicurezza.refresh",
+      "type": "java.lang.String",
+      "description": "A description for 'sicurezza.refresh'",
+      "sourceType": "com.davide.webapp.security.JwtConfig"
+    },
+    {
+      "name": "sicurezza.secret",
+      "type": "java.lang.String",
+      "description": "A description for 'sicurezza.secret'",
+      "sourceType": "com.davide.webapp.security.JwtConfig"
+    },
+    {
+      "name": "sicurezza.uri",
+      "type": "java.lang.String",
+      "description": "A description for 'sicurezza.uri'",
+      "sourceType": "com.davide.webapp.security.JwtConfig"
+    }
+  ],
+  "hints": []
+}

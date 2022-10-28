@@ -1,0 +1,47 @@
+# ==============================================================
+# = Authentication Server JWT
+# ==============================================================
+
+spring:
+    application:
+        name: AUTH-SERVICE
+    datasource:
+      username: root
+      url: jdbc:mysql://localhost:3306/food_reservation_schema?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
+      password: password
+
+server:
+    port: 9100
+
+# ==============================================================
+# = Parametri Servizio gestUser
+# ==============================================================
+#gestuser:
+#  srvUrl: http://localhost:8020/api/utenti/cerca/userid/
+#  userId: readUser
+#  password: readUser
+
+# ==============================================================
+# = Parametri Sicurezza JWT 
+# ==============================================================
+sicurezza:
+    uri: /auth
+    refresh: /refresh
+    header: Authorization
+    prefix: Bearer 
+    expiration: 3600
+    secret: 123_Stella
+
+# ==============================================================
+# = Livello Log di Sicurezza
+# ==============================================================  
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+
+
+        
+
+  
+ 
